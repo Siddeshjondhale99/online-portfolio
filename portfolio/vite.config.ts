@@ -15,4 +15,10 @@ export default defineConfig({
       },
     },
   },
+  assetsInclude: ["**/*.jpg", "**/*.png", "**/*.jpeg", "**/*.svg"],
+  resolve: {
+    alias: {
+      "@": "/src",
+    },
+  },
 });

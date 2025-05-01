@@ -15,6 +15,7 @@ import {
   XMarkIcon,
 } from "@heroicons/react/24/outline";
 import { useState } from "react";
+import profileImage from "./assets/profile-photo.jpg";
 import "./App.css";
 
 function App() {
@@ -205,7 +206,7 @@ function App() {
                     <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-3xl blur opacity-25 group-hover:opacity-40 transition duration-1000"></div>
                     <div className="relative w-72 h-72 md:w-96 md:h-96 mx-auto overflow-hidden rounded-3xl shadow-xl">
                       <img
-                        src="/images/profile-photo.jpg"
+                        src={profileImage}
                         alt="Siddesh Jondhale"
                         className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"
                       />

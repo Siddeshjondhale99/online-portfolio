@@ -6,6 +6,9 @@ npm install
 # Build the project
 npm run build
 
+# Move build files to the correct location
+mv dist/* .
+
 # Make sure the dist directory exists
 if [ ! -d "dist" ]; then
   echo "Build failed: dist directory not found"
