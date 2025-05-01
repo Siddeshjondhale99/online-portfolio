@@ -40,7 +40,7 @@ function App() {
                 transition={{ duration: 0.5 }}
                 className="text-2xl font-bold text-blue-600 hover:text-blue-700"
               >
-                Siddesh Jondhale
+                Portfolio
               </motion.a>
 
               {/* Desktop Navigation */}
@@ -205,7 +205,7 @@ function App() {
                     <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-3xl blur opacity-25 group-hover:opacity-40 transition duration-1000"></div>
                     <div className="relative w-72 h-72 md:w-96 md:h-96 mx-auto overflow-hidden rounded-3xl shadow-xl">
                       <img
-                        src="/profile.jpg"
+                        src="/images/profile-photo.jpg"
                         alt="Siddesh Jondhale"
                         className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"
                       />
