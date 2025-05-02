@@ -1,6 +1,9 @@
 {
   "version": 2,
-  "buildCommand": false,
+  "buildCommand": "vite build",
+  "devCommand": "vite",
+  "framework": "vite",
+  "installCommand": "npm install",
   "builds": [
     {
       "src": "package.json",
