@@ -14,11 +14,18 @@ export default defineConfig({
         manualChunks: undefined,
       },
     },
+    commonjsOptions: {
+      include: [/node_modules/],
+      transformMixedEsModules: true,
+    },
   },
   assetsInclude: ["**/*.jpg", "**/*.png", "**/*.jpeg", "**/*.svg"],
   resolve: {
     alias: {
       "@": "/src",
     },
+  },
+  optimizeDeps: {
+    include: ["react", "react-dom"],
   },
 });
